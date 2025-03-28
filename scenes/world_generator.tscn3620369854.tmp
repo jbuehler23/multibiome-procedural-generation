@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://dk6ghbhrlcldl"]
+
+[ext_resource type="Script" uid="uid://betujugl1i0fq" path="res://world_generator.gd" id="1_udtrs"]
+[ext_resource type="TileSet" uid="uid://p1ummmutm6aa" path="res://tilesets/ground.tres" id="2_udtrs"]
+[ext_resource type="PackedScene" uid="uid://c7s7lt0occi3j" path="res://scenes/player.tscn" id="3_7xx1e"]
+
+[node name="WorldGenerator" type="Node"]
+script = ExtResource("1_udtrs")
+
+[node name="GroundLayer" type="TileMapLayer" parent="."]
+tile_set = ExtResource("2_udtrs")
+
+[node name="EnvironmentLayer" type="TileMapLayer" parent="."]
+
+[node name="CliffLayer" type="TileMapLayer" parent="."]
+
+[node name="Player" parent="." instance=ExtResource("3_7xx1e")]
