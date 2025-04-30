@@ -8,7 +8,6 @@ extends Node
 @export var altitude = FastNoiseLite.new()
 @export var tree_noise = FastNoiseLite.new()
 @onready var ground_layer: TileMapLayer = $GroundLayer
-@onready var water_layer: TileMapLayer = $WaterLayer
 @onready var environment_layer: TileMapLayer = $EnvironmentLayer
 
 @onready var player: CharacterBody2D = $Player
@@ -16,7 +15,7 @@ extends Node
 var forest_id = 0
 var desert_id = 1
 var tundra_id = 2
-var water_id = 0
+var water_id = 3
 
 var base_water_atlas = Vector2i(4, 7)
 var base_land_atlas = Vector2i(2, 6)
@@ -77,7 +76,7 @@ func generate_chunk(position):
 				environment_tiles.append({"pos": chunk_vector, "tile": object_tile})
 
 	# Apply biomes to terrain layer
-	water_layer.set_cells_terrain_connect(chunk_tiles["water"], 0, water_id)
+	ground_layer.set_cells_terrain_connect(chunk_tiles["water"], 0, water_id)
 	ground_layer.set_cells_terrain_connect(chunk_tiles["forest"], 0, forest_id)
 	ground_layer.set_cells_terrain_connect(chunk_tiles["desert"], 0, desert_id)
 	ground_layer.set_cells_terrain_connect(chunk_tiles["tundra"], 0, tundra_id)
