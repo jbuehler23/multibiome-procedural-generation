@@ -1,5 +1,4 @@
 res://scenes/world_generator.tscn
-res://tilesets/water.tres
 res://tilesets/ground.tres
 res://tilesets/resources.tres
 res://scenes/player.tscn

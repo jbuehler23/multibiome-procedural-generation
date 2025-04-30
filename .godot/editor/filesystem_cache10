@@ -1,7 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1744003240
+::res://::1746051276
 icon.svg::CompressedTexture2D/CompressedTexture2D::4695976310762581288::1742906832::1742906840::1::::<><><>0<>0<>e669452f0cefd75a6e2a35e222f74dac<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-world_generator.gd::GDScript::2707630707843546974::1743093954::0::1::::<>Node<><>0<>0<><>::
+world_generator.gd::GDScript::2707630707843546974::1744005366::0::1::::<>Node<><>0<>0<><>::
 ::res://assets/::1742907334
 ::res://assets/sprites/::1742907343
 ::res://assets/sprites/caveSprites_/::1742907349
@@ -265,11 +265,11 @@ tundra_ [fountain].png::CompressedTexture2D/CompressedTexture2D::466603702686301
 tundra_ [ice].png::CompressedTexture2D/CompressedTexture2D::7011681135627559575::1742816299::1742907349::1::::<><><>0<>0<>37338281b331c2f093203479c720d1d2<>res://.godot/imported/tundra_ [ice].png-3f45f59c13dcb7be3ff4c6ea7988c3a9.ctex::
 tundra_ [resources].png::CompressedTexture2D/CompressedTexture2D::3554576019212277447::1742816299::1742907349::1::::<><><>0<>0<>01cadd20fbc0faaf292be96022378738<>res://.godot/imported/tundra_ [resources].png-2ef41d3d477f3a646da060be1a37ebee.ctex::
 tundra_.png::CompressedTexture2D/CompressedTexture2D::8754561026795975461::1742816299::1742907349::1::::<><><>0<>0<>6cf99640a985e49b4f65812ea83348ed<>res://.godot/imported/tundra_.png-e61fad818268dcbeec772208c86160b8.ctex::
-::res://scenes/::1743172826
+::res://scenes/::1744022994
 player.gd::GDScript/GDScript::6936940550099479823::1743002501::0::1::::<>CharacterBody2D<><>0<>0<><>::
-player.tscn::PackedScene::7058006788080415633::1743172671::0::1::::<><><>0<>0<><>::uid://baup7pa5ondr2::::res://assets/sprites/playerSprites_ [version 1.0]/mPlayer_ [human].png<>uid://c53knrl4ccvi2::::res://scenes/player.gd
-world_generator.tscn::PackedScene::7925523064473587517::1743172826::0::1::::<><><>0<>0<><>::uid://betujugl1i0fq::::res://world_generator.gd<>uid://dggejyp51pwda::::res://tilesets/water.tres<>uid://p1ummmutm6aa::::res://tilesets/ground.tres<>uid://c7s7lt0occi3j::::res://scenes/player.tscn<>uid://bjokvdgbbs7dq::::res://tilesets/resources.tres
-::res://tilesets/::1743172658
-ground.tres::TileSet::1107742895310689036::1743093621::0::1::::<><><>0<>0<><>::uid://jpboiagu88it::::res://assets/tiles/forest_/forest_.png<>uid://cjcwboafcy8ps::::res://assets/tiles/desert_/desert_.png<>uid://dwy1lui1xd1k8::::res://assets/tiles/tundra_/tundra_.png
-resources.tres::TileSet::3047666403478290102::1743172658::0::1::::<><><>0<>0<><>::uid://dcvq5soj7gbja::::res://assets/tiles/forest_/forest_ [resources].png<>uid://lm2q8ly2gsfq::::res://assets/tiles/desert_/desert_ [resources].png<>uid://bqv4l27ismpal::::res://assets/tiles/tundra_/tundra_ [resources].png
-water.tres::TileSet::7593041604678958294::1743094008::0::1::::<><><>0<>0<><>::uid://jpboiagu88it::::res://assets/tiles/forest_/forest_.png<>uid://cjcwboafcy8ps::::res://assets/tiles/desert_/desert_.png<>uid://dwy1lui1xd1k8::::res://assets/tiles/tundra_/tundra_.png
+player.tscn::PackedScene::7058006788080415633::1744005577::0::1::::<><><>0<>0<><>::uid://baup7pa5ondr2::::res://assets/sprites/playerSprites_ [version 1.0]/mPlayer_ [human].png<>uid://c53knrl4ccvi2::::res://scenes/player.gd
+world_generator.tscn::PackedScene::7925523064473587517::1744022994::0::1::::<><><>0<>0<><>::uid://betujugl1i0fq::::res://world_generator.gd<>uid://p1ummmutm6aa::::res://tilesets/ground.tres<>uid://c7s7lt0occi3j::::res://scenes/player.tscn<>uid://bjokvdgbbs7dq::::res://tilesets/resources.tres
+::res://tilesets/::1744005571
+ground.tres::TileSet::1107742895310689036::1744005571::0::1::::<><><>0<>0<><>::uid://jpboiagu88it::::res://assets/tiles/forest_/forest_.png<>uid://cjcwboafcy8ps::::res://assets/tiles/desert_/desert_.png<>uid://dwy1lui1xd1k8::::res://assets/tiles/tundra_/tundra_.png
+resources.tres::TileSet::3047666403478290102::1744003288::0::1::::<><><>0<>0<><>::uid://dcvq5soj7gbja::::res://assets/tiles/forest_/forest_ [resources].png<>uid://lm2q8ly2gsfq::::res://assets/tiles/desert_/desert_ [resources].png<>uid://bqv4l27ismpal::::res://assets/tiles/tundra_/tundra_ [resources].png
+water.tres::TileSet::7593041604678958294::1744003288::0::1::::<><><>0<>0<><>::uid://jpboiagu88it::::res://assets/tiles/forest_/forest_.png<>uid://cjcwboafcy8ps::::res://assets/tiles/desert_/desert_.png<>uid://dwy1lui1xd1k8::::res://assets/tiles/tundra_/tundra_.png

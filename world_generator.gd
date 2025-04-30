@@ -28,6 +28,9 @@ var tree_objects = {
 
 func _ready() -> void:
 	generate_world()
+func _input(event: InputEvent) -> void:
+	if event.is_action_pressed("restart"):
+		generate_world()
 	
 func generate_world() -> void:
 	moisture.seed = randi() #should hard code for debugging
